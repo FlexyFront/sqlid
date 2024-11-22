@@ -25,7 +25,11 @@ npm install sqlid
 For JavaScript projects
 
 ```js
-import 
+import { sqlid } from sqlid;
+// Rest of the code
+// Data must be parsed
+app.use(sqlid);
+
 ```
 
 ## LRU Cache
