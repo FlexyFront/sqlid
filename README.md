@@ -18,9 +18,10 @@ This is a [Node.js](https://nodejs.org/en/) module available through the
 You can install this package via npm:
 
 ```bash
-npm install sqlid 
+npm install sqlid
 ```
-## Usage 
+
+## Usage
 
 For JavaScript projects
 
@@ -44,10 +45,14 @@ These settings can be adjusted in the LRU cache configuration:
 ```js
 const attackCache = new LRUCache({
   max: 1000,
-  ttl: 1000 * 60 * 60 // 1-hour block for persistent offenders
+  ttl: 1000 * 60 * 60, // 1-hour block for persistent offenders
 });
 ```
 
-## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
+## Star History
 
+[![Star History Chart](https://api.star-history.com/svg?repos=FlexyFront/sqlid&type=Date)](https://star-history.com/#FlexyFront/sqlid&Date)
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
