@@ -41,7 +41,7 @@ Time to Live (TTL): 5 minutes
 
 These settings can be adjusted in the LRU cache configuration:
 
-```bash
+```js
 const attackCache = new LRUCache({
   max: 1000,
   ttl: 1000 * 60 * 60 // 1-hour block for persistent offenders

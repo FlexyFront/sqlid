@@ -1,6 +1,6 @@
 {
   "name": "sqlid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SQL Injection and Detection (sqlid) is a npm module that is capable of preventing sql injection in your projects.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -23,5 +23,5 @@
     "type":"git",
     "url":"https://github.com/FlexyFront/sqlid"
   },
-  "homepage": "https://github.com/FlexyFront/sqlid",
+  "homepage": "https://github.com/FlexyFront/sqlid"
 }
